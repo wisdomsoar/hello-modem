@@ -5,12 +5,21 @@ at+creg?
 0,6 ?
 
 ********************************************************
-
+看一下連上什麼band:
+Query Carrier Aggregation Parameters:
 xs_at at+XCAINFO
 
 at+XCAINFO
 
 
 +XCAINFO: "PCC",3550,50,"LTE BAND 8",1,204,-1067,-122,-776
+
+OK
+********************************************************
+Query the information of serving cell:
+xs_at AT+XENG=\"servingcell\"
+AT+XENG="servingcell"
+
++XENG: "servingcell","SEARCH","LTE",_,_,_,0,108,2,122,551,-104,-12,-73,_,_,_,0
 
 OK
