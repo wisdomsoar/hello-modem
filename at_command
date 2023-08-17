@@ -11,6 +11,11 @@ at+creg?
 xs_at at+cgdcont=1,\"ip\",\"apn\"
 
 
+******************************************************
+看一下要到什麼ip
+xs_at at+cgpaddr
+
+
 ********************************************************
 看一下連上什麼band:
 Query Carrier Aggregation Parameters:
